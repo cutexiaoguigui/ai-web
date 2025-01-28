@@ -83,8 +83,20 @@ export const uniModals: Model[] = [
 ]
 
 export const textGenModels: Model[] = [{
-    id: 'gpt-3.5-turbo',
-    name: 'ChatGPT-3.5-turbo',
+    id: 'gemini-2.0-flash-exp',
+    name: 'Gemini 2.0 flash',
+    provider: 'openai',
+    endpoint: 'chat/completions',
+    type: 'chat'
+}, {
+    id: 'gemini-exp-1206',
+    name: 'Gemini exp 1206',
+    provider: 'openai',
+    endpoint: 'chat/completions',
+    type: 'chat'
+}, {
+    id: 'gemini-2.0-flash-thinking-exp-1219',
+    name: 'Gemini 2.0 flash thinking exp',
     provider: 'openai',
     endpoint: 'chat/completions',
     type: 'chat'
