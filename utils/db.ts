@@ -79,28 +79,31 @@ export const uniModals: Model[] = [
         name: 'Gemini 1.5 Pro',
         provider: 'google',
         type: 'universal'
+    },
+    {
+        id: 'gemini-2.0-flash-exp',
+        name: 'Gemini 2.0 flash',
+        provider: 'openai',
+        endpoint: 'chat/completions',
+        type: 'universal'
+    },
+    {
+        id: 'gemini-exp-1206',
+        name: 'Gemini exp 1206',
+        provider: 'openai',
+        endpoint: 'chat/completions',
+        type: 'universal'
+    },
+    {
+        id: 'gemini-2.0-flash-thinking-exp-1219',
+        name: 'Gemini 2.0 flash thinking exp',
+        provider: 'openai',
+        endpoint: 'chat/completions',
+        type: 'universal'
     }
 ]
 
 export const textGenModels: Model[] = [{
-    id: 'gemini-2.0-flash-exp',
-    name: 'Gemini 2.0 flash',
-    provider: 'openai',
-    endpoint: 'chat/completions',
-    type: 'chat'
-}, {
-    id: 'gemini-exp-1206',
-    name: 'Gemini exp 1206',
-    provider: 'openai',
-    endpoint: 'chat/completions',
-    type: 'chat'
-}, {
-    id: 'gemini-2.0-flash-thinking-exp-1219',
-    name: 'Gemini 2.0 flash thinking exp',
-    provider: 'openai',
-    endpoint: 'chat/completions',
-    type: 'chat'
-}, {
     id: '@cf/qwen/qwen1.5-14b-chat-awq',
     name: 'qwen1.5-14b-chat-awq',
     provider: 'workers-ai',
